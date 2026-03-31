@@ -1,14 +1,13 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff");
-    font-family: 'Forma';
+    src: url("fonts/Texturina-VariableFont_opsz\,wght.woff2") format("woff2");
+    font-family: 'Texturina';
     font-style: normal;
     font-weight: normal;
     }
-    
+
     body{
     background-color: pink;
-    font-family: 'Forma';
+    font-family: 'Texturina';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -60,12 +59,12 @@ h3{
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
-
+/* Full range of animation */
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 12, "wght" 100;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "opsz" 72, "wght" 900;
     }
 }
 /* animations for the variations section */
