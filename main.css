@@ -6,7 +6,7 @@
     }
 
     body{
-    background-color: pink;
+    background-color: rgb(168, 132, 225);
     font-family: 'Texturina';
 }
 /* how the page wrapper will appear on mobile */
@@ -30,7 +30,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: lightcoral;
+background-color: rgb(188, 150, 245);
 }
 
 #variations{
@@ -43,13 +43,13 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(138, 21, 21);
+    background-color: rgb(78, 33, 137);
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: firebrick;
+    color: rgb(85, 53, 171);
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
 }
 
@@ -92,7 +92,7 @@ h3{
 
 h5{
     font-size:40px;
-    color:blue;
+    color:rgb(83, 47, 141);
     margin:15px;
 }
 
