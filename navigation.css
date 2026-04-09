@@ -20,6 +20,7 @@
       background: rgba(18, 2, 20, 0.636);
       text-align: left;
       top:0px;
+      bottom:1px
       position: fixed;
       z-index: 999;
       width: 100%
