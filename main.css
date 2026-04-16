@@ -21,7 +21,7 @@
     { animation: none !important; 
      transition: none !important; } }
 
-@media only screen and (min-width:700px){
+
 .page-wrapper{
 display: grid;
 grid-gap: 20px;
@@ -31,7 +31,7 @@ grid-template-areas:
 
     
     "t t t t t t "
-    ". h h h h ."
+    "h h h h h h"
      ". . v v v ."
     " a a a . . .";
 }
@@ -186,8 +186,7 @@ a {display: inline-block;
   position: absolute;
   font-size: clamp(20rem, 30vw, 22rem);
   line-height: 1;
-
- color: rgba(214, 90, 169, 0.539);
+    color:rgba(132, 27, 158, 0.284);
   white-space: nowrap;
   top: 60%;
   left: 50%;
@@ -216,7 +215,7 @@ a {display: inline-block;
 }
 
 .bg-text-content h2 {
- color: rgb(225, 32, 135);
+    color:rgb(212, 110, 238);
   font-variation-settings: inherit;
   padding-bottom: 1;
  font-size:150px

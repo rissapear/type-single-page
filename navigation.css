@@ -7,7 +7,7 @@
   }
 
   h1{
- color: rgb(214, 107, 90);
+color: rgba(239, 48, 210, 0.78);
   }
   h6{
     color: #c230966d;
@@ -25,14 +25,14 @@
       text-align: left;
       top:0px;
       bottom:1px
-      position:fixed;
-      z-index:999;
-      width:100%
+      position-absolute;
+      z-index:index
+      width 100%;
   }
   
   .logo {
     margin: 0;
-     color: rgba(237, 66, 151, 0.364);
+     color: rgba(253, 59, 247, 0.364);
   }
   /* where to change the background color of the pop-up nav bar*/
   nav {
@@ -69,7 +69,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color:#911d6e;;
+      color:#da26a4;;
   }
   
   .nav-checkbox:checked ~ nav {
@@ -184,16 +184,19 @@ a{display: inline-block;
     border-radius: 10px;
     font-size: 20px;
     font-family:Texturina
+    position: right;
 }
 
 /* Basic button styles */
 .first {
-    background-color: #180117d7;
-    color: rgba(234, 66, 237, 0.598);
+    background-color: #460a55e9;
+    color: rgba(236, 82, 238, 0.598);
+
 }
 
 
 .first:hover {
-    background-color: #380436;
+    background-color: #b822c56d;
+    color:#e165ea
 }
   
