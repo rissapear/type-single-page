@@ -6,9 +6,12 @@
     }
 
     body{
-        background-image: url("assets/wonk4.png"); background-size: cover;
+        background-image: url("assets/tester.png"); background-size: cover;
       font-family: 'Texturina';
+      cursor: url('assets/test-mouse.png'), auto;
+
 }
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
@@ -30,23 +33,26 @@ grid-template-rows: auto;
 grid-template-areas: 
 
     
-    "t t t t t t "
-    "h h h h h h"
-     ". . v v v ."
-    " a a a . . .";
+    ". . t t t t "
+    "h h h . . v" 
+    " a a a a a a"
+     "f f f f f f";
+
+  
 }
 
 
 #history {
 grid-area: h;
-background-color: #22052737;;
-height: 400px;
+background-color: #17011ba1;;
+height: 500px;
   place-content: left;
-color: rgba(224, 96, 211, 0.62);
+color: rgba(233, 118, 222, 0.747);
 }
 
 #variations{
 grid-area: v;
+text-align: right;
 color: #a832a6dc;
 
 }
@@ -54,7 +60,7 @@ color: #a832a6dc;
 #alphabet {
 grid-area: a;
 color: rgb(224, 96, 211);
-text-align: left;
+text-align: center;
 }
 
 #texture{
@@ -65,16 +71,17 @@ text-align: left;
 
 /* CSS for the footer */
 footer{
-    background-color: #18021ca2;
- color: rgba(234, 66, 237, 0.6);
+    grid-area: f;
+    background-color: #18021c00;
+ color: rgba(244, 97, 246, 0.773);
     font-size: 20px;
-    text-align: left;
-    height:100px;
+text-align:center;
+    height: 100px;
 }
 
 /* font styling area */
 h2{
-      color: rgb(156, 30, 139);
+      color: rgb(183, 52, 166);
     
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
   
@@ -172,23 +179,23 @@ a {display: inline-block;
 }
 
 
-
 .bg-text-section {
   position: relative;
   overflow: hidden;
   min-height: 100px;
   display: flex;
   align-items: center;
-  background-color: #11011171;
+  background-color: #1101119d;
+  background-blend-mode: color;
 }
 
 .bg-word {
   position: absolute;
   font-size: clamp(20rem, 30vw, 22rem);
   line-height: 1;
-    color:rgba(132, 27, 158, 0.284);
+    color:rgba(132, 27, 158, 0.286);
   white-space: nowrap;
-  top: 60%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   animation: bgWordPulse 12s ease-in-out infinite;
@@ -211,20 +218,20 @@ a {display: inline-block;
   position: relative;
   z-index: 1;
   padding: 1rem 2rem;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .bg-text-content h2 {
     color:rgb(212, 110, 238);
   font-variation-settings: inherit;
   padding-bottom: 1;
- font-size:150px
+ font-size:100px
 
 }
 
 .bg-text-content p {
  
- color: rgba(239, 48, 210, 0.78);
+ color: rgba(239, 48, 210, 0.83);
   font-size: 20px
 
 }

@@ -21,28 +21,28 @@ color: rgba(239, 48, 210, 0.78);
   }
   header {
     /* where to set the color of the nav bar */
-      background: rgba(18, 2, 20, 0.636);
+      background: rgba(18, 2, 20, 0.672);
       text-align: left;
       top:0px;
-      bottom:1px
+      bottom:6px
       position-absolute;
       z-index:index
       width 100%;
   }
   
   .logo {
-    margin: 0;
-     color: rgba(253, 59, 247, 0.364);
+    margin: 2px;
+      color: rgba(189, 42, 169, 0.65);
   }
   /* where to change the background color of the pop-up nav bar*/
   nav {
       position: absolute;
       text-align: right;
-      padding-top:2px;
+      padding-top:5px;
       top: 100%;
-      left: 50px;
+      left: 60px;
       background: rgba(130, 9, 73, 0.797);
-      width: 200%;
+      width: 100%;
       transform: scale(1,0);
       transform-origin: top;
       transition: transform 400ms ease-in-out;
@@ -82,9 +82,9 @@ color: rgba(239, 48, 210, 0.78);
   
   .nav-checkbox-icon {
       position: absolute;
-      top: 0;
+      top: 2px;
       right: 0;
-      margin-right: 1em;
+      margin-right: 2em;
       height: 100%;
       display: flex;
       align-items: center;    
@@ -158,9 +158,9 @@ color: rgba(239, 48, 210, 0.78);
     nav a::before {
       content: '';
       display: block;
-      height: 1px;
+      height: 2px;
       /* where to change color of underline on desktop nav */
-      background: rgba(64, 10, 34, 0.532);
+      background: rgba(145, 19, 76, 0.532);
       position: absolute;
       top: 0.1em;
       left: 0;
@@ -184,14 +184,12 @@ a{display: inline-block;
     border-radius: 10px;
     font-size: 20px;
     font-family:Texturina
-    position: right;
 }
 
 /* Basic button styles */
 .first {
     background-color: #460a55e9;
     color: rgba(236, 82, 238, 0.598);
-
 }
 
 
