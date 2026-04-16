@@ -6,9 +6,9 @@
     }
 
     body{
-        background-image: url("assets/tester.png"); background-size: cover;
+        background-image: url("assets/test3.png"); background-size: cover;
       font-family: 'Texturina';
-      cursor: url('assets/test-mouse.png'), auto;
+      cursor: url('assets/test-mouse.svg'), auto;
 
 }
 
@@ -27,40 +27,61 @@
 
 .page-wrapper{
 display: grid;
-grid-gap: 20px;
+grid-gap: 30px;
 grid-template-columns: 0.5fr 0.5fr;
 grid-template-rows: auto;
 grid-template-areas: 
 
     
     ". . t t t t "
+    ". . . . c c "
     "h h h . . v" 
     " a a a a a a"
      "f f f f f f";
-
-  
 }
 
 
 #history {
 grid-area: h;
-background-color: #17011ba1;;
-height: 500px;
+background-color: #17011b89;;
+height: 600px;
+font-size: 20px;
+margin-top: auto;
   place-content: left;
 color: rgba(233, 118, 222, 0.747);
-}
 
+}
+#button{
+place-content: right;
+display: inline-block;
+    text-decoration:wavy;
+    cursor:cell;
+    padding: 50px 50px;
+    margin:1px;
+    border-radius: 30px;
+    font-size: 100px;
+}
+    /* Basic button styles */
+.first {
+    place-content: right;
+    background-color: rgb(55, 8, 105);
+    color: rgba(214, 90, 197, 0.75);
+}
+.first:hover {
+    place-content: right;
+    background-color: #380436;
+}
 #variations{
 grid-area: v;
 text-align: right;
-color: #a832a6dc;
+color: rgb(195, 60, 143);
 
 }
 
 #alphabet {
 grid-area: a;
 color: rgb(224, 96, 211);
-text-align: center;
+text-align: right;
 }
 
 #texture{
@@ -85,6 +106,17 @@ h2{
     
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
   
+}
+
+.variable-font:hover{
+     color: rgb(195, 60, 143);
+    font-weight:500 ;
+    height: 100px;
+    font-size: 100em;
+    display:grid;
+    place-content: right;
+    margin: 0;
+    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
 h3{
@@ -145,39 +177,6 @@ h5{
         font-weight 500ms,
         font-variation-settings 3s;
 }
-/* Resetting default button styles */
-a {display: inline-block;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 60px 60px;
-    margin:1px;
-    border-radius: 30px;
-    font-size: 100px;
-}
-
-/* Basic button styles */
-.first {
-    background-color: rgb(55, 8, 105);
-    color: rgba(214, 90, 197, 0.75);
-}
-
-.first:hover {
-    background-color: #380436;
-}
-.variable-font:hover{
-     color: rgb(195, 60, 143);
-    font-weight:500 ;
-    height: 100px;
-    font-size: 100em;
-    display:grid;
-    place-content: left;
-    margin: 0;
-    text-align: left;
-    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-}
-
 
 .bg-text-section {
   position: relative;

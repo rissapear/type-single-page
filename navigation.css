@@ -188,13 +188,13 @@ a{display: inline-block;
 
 /* Basic button styles */
 .first {
-    background-color: #460a55e9;
-    color: rgba(236, 82, 238, 0.598);
+    background-color: #16011c;
+        color:#da26a4a3;;
 }
 
 
 .first:hover {
-    background-color: #b822c56d;
-    color:#e165ea
+    background-color: #b822c574;
+        color:#da26a4;;
 }
   
