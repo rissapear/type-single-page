@@ -6,9 +6,8 @@
     }
 
     body{
-        background-image: url("assets/test3.png"); background-size: cover;
+        background-image: url("assets/tester.png"); background-size: cover;
       font-family: 'Texturina';
-      cursor: url('assets/test-mouse.svg'), auto;
 
 }
 
@@ -64,12 +63,12 @@ display: inline-block;
     /* Basic button styles */
 .first {
     place-content: right;
-    background-color: rgb(55, 8, 105);
-    color: rgba(214, 90, 197, 0.75);
+    background-color: rgb(92, 46, 142);
+    color: rgba(214, 90, 197, 0.797);
 }
 .first:hover {
     place-content: right;
-    background-color: #380436;
+    background-color: #941e8e;
 }
 #variations{
 grid-area: v;
@@ -159,7 +158,7 @@ h3{
 
 h5{
     font-size:30px;
- color: rgba(242, 119, 244, 0.322);
+ color: rgba(242, 119, 244, 0.688);
     margin:10px;
 }
 /* variable font that changes on hover */

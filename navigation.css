@@ -15,7 +15,7 @@ color: rgba(239, 48, 210, 0.78);
     font-size: 30px;
   }
   h4{
-    color: #e95ce760;
+    color: #e95ce77a;
     text-align: center;
     font-size: 30px;
   }
@@ -180,6 +180,7 @@ a{display: inline-block;
     border: none;
     outline: none;
     cursor: pointer;
+    color:#dc4cf2d8;;
     padding: 20px 20px;
     border-radius: 10px;
     font-size: 20px;
@@ -188,8 +189,8 @@ a{display: inline-block;
 
 /* Basic button styles */
 .first {
-    background-color: #16011c;
-        color:#da26a4a3;;
+    background-color: #6d1386;
+        color:#de53dbe5;;
 }
 
 
